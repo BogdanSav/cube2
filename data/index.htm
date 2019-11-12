@@ -55,6 +55,50 @@
     document.getElementById("motor").onclick = () => {
       matrix.classList.add("dis")
       motors.classList.remove("dis")
+      fow.onmousedown = ()=>{
+        send = "fow"
+          console.log(send)
+          sendrequest(send)
+          
+      }
+      fow.onmouseup =()=>{
+        send = "stop"
+          console.log(send)
+          sendrequest(send)
+      }
+      back.onmousedown = ()=>{
+        send = "back"
+          console.log(send)
+          sendrequest(send)
+          
+      }
+      back.onmouseup =()=>{
+        send = "stop"
+          console.log(send)
+          sendrequest(send)
+      }
+      left.onmousedown = ()=>{
+        send = "left"
+          console.log(send)
+          sendrequest(send)
+          
+      }
+      left.onmouseup =()=>{
+        send = "stop"
+          console.log(send)
+          sendrequest(send)
+      }
+      right.onmousedown = ()=>{
+        send = "right"
+          console.log(send)
+          sendrequest(send)
+          
+      }
+      right.onmouseup =()=>{
+        send = "stop"
+          console.log(send)
+          sendrequest(send)
+      }
 
 
       document.onkeydown = (e) => {
