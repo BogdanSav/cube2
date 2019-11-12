@@ -38,8 +38,8 @@ void t_left();
 void t_right();
 void inv_t_right();
 void inv_t_left();
-Ticker1 tr(t_right, 500);
-Ticker1 tl(t_left, 500);
+Ticker1 tr(t_right, 100);
+Ticker1 tl(t_left, 100);
 //Ticker1 inv_tr(inv_t_right, 1000);
 //Ticker1 inv_tl(inv_t_left, 1000);
 
